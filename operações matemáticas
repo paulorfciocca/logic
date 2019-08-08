@@ -1,0 +1,24 @@
+algoritmo "operacoes_matematicas"
+
+var
+
+N1, N2, S, SUB, M, D: REAL
+
+inicio
+
+escreva("Digite o primeiro número: ")
+leia(N1)
+escreva("Digite o segundo númeoro: ")
+leia(N2)
+
+S   <- N1 + N2
+SUB <- N1 - N2
+M   <- N1 * N2
+D   <- N1 / N2
+
+escreval("A soma dos dois números é: ", S)
+escreval("A subtração do primeiro pelo segundo número é: ", SUB)
+escreval("A multiplicação dos dois números é: ", M)
+escreva ("A divisão do primeiro pelo segundo número é: ", D)
+
+fimalgoritmo
