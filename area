@@ -1,0 +1,18 @@
+algoritmo "area"
+
+var
+B, H, A: REAL
+
+inicio
+
+escrevaL("Escreva as dimensões do retângulo.")
+escreva("A base é: ")
+leia(B)
+escreva("A altura é: ")
+leia(H)
+
+A <- B * H
+
+escreva("A área do retângulo é: ", A)
+
+fimalgoritmo
