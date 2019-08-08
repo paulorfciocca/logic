@@ -1,0 +1,20 @@
+algoritmo "idade"
+
+var
+
+N, I: inteiro
+
+inicio
+
+escreva("Em que ano você nasceu? ")
+leia(N)
+
+se (N <= 2019) entao
+     I <- 2019 - N
+     escreva("Você tem: ", I, " anos")
+senao
+     escreva("idade inválida")
+fimse
+
+
+fimalgoritmo
