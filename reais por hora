@@ -1,0 +1,18 @@
+algoritmo "reais_por_hora"
+
+var
+
+CH, SAL, H: REAL
+
+inicio
+
+escreva("Qual sua carga horária semanal de trabalho? ")
+leia(CH)
+escreva("Qual seu salário fixo? ")
+leia(SAL)
+
+H <- SAL/(CH *4)
+
+escreva("Você recebe R$", H, " por hora trabalhada")
+
+fimalgoritmo
