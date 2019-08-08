@@ -1,0 +1,19 @@
+algoritmo "troca"
+
+var
+A, B, C: INTEIRO
+
+inicio
+A <- 10
+B <- 20
+
+C <- A
+
+A <- B
+B <- C
+
+ESCREVAL("O VALOR ARMAZENADO EM A É: ", A)
+ESCREVA("O VALOR ARMAZENADO EM B É: ", B)
+
+
+fimalgoritmo
