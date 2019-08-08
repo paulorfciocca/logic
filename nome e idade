@@ -1,0 +1,19 @@
+algoritmo "nome_idade"
+
+var
+
+nome:  caractere
+idade: inteiro
+
+inicio
+
+escreva("Qual o seu nome? ")
+leia(nome)
+escreva("Qual sua idade? ")
+leia(idade)
+escreval("")
+
+escreval("Boa noite ", nome)
+escreva("Sua idade é ", idade)
+
+fimalgoritmo
