@@ -1,0 +1,16 @@
+algoritmo "nome_sobrenome"
+
+var
+
+nome, sobrenome: caractere
+
+inicio
+
+escreva("Escreva seu nome: ")
+leia(nome)
+escreva("Escreva seu sobrenome: ")
+leia (sobrenome)
+
+escreva("seu nome completo é: ", nome, " ", sobrenome)
+
+fimalgoritmo
