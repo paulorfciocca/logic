@@ -1,0 +1,22 @@
+algoritmo "eleicoes"
+
+var
+eleitores, brancos, validos, nulos: inteiro
+
+inicio
+
+escreva("quantos eleitores tem o municipio? ")
+leia(eleitores)
+
+escreva("quantidade de votos validos: ")
+leia(validos)
+escreva("quantidade de votos brancos: ")
+leia(brancos)
+escreva("quantidade de votos nulos: ")
+leia(nulos)
+
+escreval("a quantidade de votos validos foi de ", ((validos * 100) / eleitores), "%")
+escreval("a quantidade de votos brancos foi de ", ((brancos * 100) / eleitores), "%")
+escreval("a quantidade de votos nulos foi de ", ((nulos * 100) / eleitores), "%")
+
+fimalgoritmo
